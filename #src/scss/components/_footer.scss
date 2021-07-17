@@ -1,0 +1,15 @@
+.footer {
+    &__subtitle {
+        font-size: 18px;
+        font-weight: bold;
+    }
+
+    &__list {
+        font-size: 16px;
+
+        a {
+            font-weight: bold;
+            text-decoration: underline;
+        }
+    }
+}

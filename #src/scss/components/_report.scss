@@ -1,0 +1,18 @@
+.report__btn {
+    svg {
+        stroke: #fff;
+        fill: #fff;
+        width: 15px;
+        height: 15px;
+    }
+
+    &.unactive {
+        background: #eee;
+        border-color: #eee;
+
+        svg {
+            stroke: rgb(184, 184, 184);
+            fill: rgb(184, 184, 184);
+        }
+    }
+}

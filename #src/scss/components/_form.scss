@@ -1,0 +1,24 @@
+.form {
+    &__label {
+        font-weight: bold;
+        font-size: 16px;
+
+        &--small {
+            font-weight: normal;
+        }
+    }
+}
+
+.form-label__sublible {
+    font-size: 12px;
+    line-height: 14px;
+}
+
+.logo__now {
+    font-size: 12px;
+    text-decoration: underline;
+}
+
+// .after__enter {
+//     display: none;
+// }
