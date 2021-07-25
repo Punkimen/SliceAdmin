@@ -131,3 +131,9 @@ body.signin {
     border-top-left-radius: 0;
     border-top-right-radius: 0;
 }
+
+button.accordion-button {
+    @media(max-width: $md5) {
+        font-size: 12px !important;
+    }
+}

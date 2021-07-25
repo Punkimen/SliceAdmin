@@ -13,7 +13,7 @@
 
 <body>
     <main class="main bg-light">
-        <div class=" container-fluid">
+        <div class="container-fluid">
             <div class="main__wrapper row d-flex ">
                 <div class="d-flex flex-column flex-shrink-0 p-3 text-white bg-dark col-md-3">
                     <a href="/">
@@ -22,7 +22,7 @@
                     <hr>
                     <ul class="nav nav-pills flex-column mb-auto">
                         <li class="nav-item">
-                            <a href="#" class="nav-link active" aria-current="page">
+                            <a href="#" class="nav-link  text-white">
                                 Developers access
                             </a>
                         </li>
@@ -37,7 +37,7 @@
                             </a>
                         </li>
                         <li>
-                            <a href="#" class="nav-link text-white">
+                            <a href="#" class="nav-link active text-white">
                                 Reports
                             </a>
                         </li>
@@ -60,7 +60,7 @@
                             </div>
                         </div>
                     </header>
-                    <div class="content-block p-3 mb-2 report">
+                    <div class="content-block p-sm-3 mb-2 report ">
                         <h3 class="report__title bold-text mb-3">Main setting for lenders</h3>
                         <div class="content-block p-2 mb-3">
                             <div class="table-scroll">
@@ -120,19 +120,70 @@
                                         <button class="accordion-button collapsed" type="button"
                                             data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true"
                                             aria-controls="collapseOne">
-                                            ammount: 5000.00 UAH
+                                            Коментарии <Span class="ms-2 me-2">(1)</Span> История <span
+                                                class="ms-2 me-2">(14)</span>
                                         </button>
                                     </h2>
                                     <div id="collapseOne" class="accordion-collapse collapse ">
                                         <div class="accordion-body">
-                                            <strong>Это тело аккордеона первого элемента.</strong> По умолчанию оно
-                                            скрыто, пока плагин сворачивания не добавит соответствующие классы, которые
-                                            мы используем для стилизации каждого элемента. Эти классы управляют общим
-                                            внешним видом, а также отображением и скрытием с помощью переходов CSS. Вы
-                                            можете изменить все это с помощью собственного CSS или переопределить наши
-                                            переменные по умолчанию. Также стоит отметить, что практически любой HTML
-                                            может быть помещен в <code>.accordion-body</code>, хотя переход ограничивает
-                                            переполнение.
+                                            <div class="table__label">История</div>
+                                            <div class="table-scroll">
+                                                <table class="table">
+                                                    <thead>
+                                                        <tr>
+                                                            <th scope="col">Loan ID</th>
+                                                            <th scope="col">Lender Name</th>
+                                                            <th scope="col">Status</th>
+                                                            <th scope="col">Date</th>
+                                                            <th scope="col">Time</th>
+                                                            <th scope="col">Notification</th>
+                                                            <th scope="col">Phone</th>
+                                                        </tr>
+                                                    </thead>
+                                                    <tbody>
+                                                        <tr>
+                                                            <td scope="row">0001</td>
+                                                            <td>example</td>
+                                                            <td>accept</td>
+                                                            <td>12.04.2021</td>
+                                                            <td>15:44</td>
+                                                            <td>accept</td>
+                                                            <td>+38000000000</td>
+                                                            <!-- <td>@mdo</td> -->
+                                                        </tr>
+                                                    </tbody>
+                                                </table>
+                                            </div>
+                                            <div class="table__label">Коментарии</div>
+                                            <div class="table-scroll">
+                                                <table class="table">
+                                                    <thead>
+                                                        <tr>
+                                                            <th scope="col">Date</th>
+                                                            <th scope="col">Time</th>
+                                                            <th scope="col">Loan ID</th>
+                                                            <th scope="col">Lender Name</th>
+                                                            <th scope="col">Comment</th>
+                                                        </tr>
+                                                    </thead>
+                                                    <tbody>
+                                                        <tr>
+                                                            <td scope="col">12.01.2020</td>
+                                                            <td scope="col">15:13</td>
+                                                            <td scope="col">0001</td>
+                                                            <td scope="col">Example</td>
+                                                            <td scope="col">
+                                                                <div class="form-floating">
+                                                                    <textarea class="form-control"
+                                                                        placeholder="Leave a comment here"
+                                                                        id="floatingTextarea"></textarea>
+                                                                    <label for="floatingTextarea">Comments</label>
+                                                                </div>
+                                                            </td>
+                                                        </tr>
+                                                    </tbody>
+                                                </table>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
@@ -196,19 +247,70 @@
                                         <button class="accordion-button collapsed" type="button"
                                             data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="true"
                                             aria-controls="collapseTwo">
-                                            ammount: 5000.00 UAH
+                                            Коментарии <Span class="ms-2 me-2">(1)</Span>
+                                            История <span class="ms-2 me-2">(14)</span>
                                         </button>
                                     </h2>
                                     <div id="collapseTwo" class="accordion-collapse collapse ">
                                         <div class="accordion-body">
-                                            <strong>Это тело аккордеона первого элемента.</strong> По умолчанию оно
-                                            скрыто, пока плагин сворачивания не добавит соответствующие классы, которые
-                                            мы используем для стилизации каждого элемента. Эти классы управляют общим
-                                            внешним видом, а также отображением и скрытием с помощью переходов CSS. Вы
-                                            можете изменить все это с помощью собственного CSS или переопределить наши
-                                            переменные по умолчанию. Также стоит отметить, что практически любой HTML
-                                            может быть помещен в <code>.accordion-body</code>, хотя переход ограничивает
-                                            переполнение.
+                                            <div class="table__label">История</div>
+                                            <div class="table-scroll">
+                                                <table class="table">
+                                                    <thead>
+                                                        <tr>
+                                                            <th scope="col">Loan ID</th>
+                                                            <th scope="col">Lender Name</th>
+                                                            <th scope="col">Status</th>
+                                                            <th scope="col">Date</th>
+                                                            <th scope="col">Time</th>
+                                                            <th scope="col">Notification</th>
+                                                            <th scope="col">Phone</th>
+                                                        </tr>
+                                                    </thead>
+                                                    <tbody>
+                                                        <tr>
+                                                            <td scope="row">0001</td>
+                                                            <td>example</td>
+                                                            <td>accept</td>
+                                                            <td>12.04.2021</td>
+                                                            <td>15:44</td>
+                                                            <td>accept</td>
+                                                            <td>+38000000000</td>
+                                                            <!-- <td>@mdo</td> -->
+                                                        </tr>
+                                                    </tbody>
+                                                </table>
+                                            </div>
+                                            <div class="table__label">Коментарии</div>
+                                            <div class="table-scroll">
+                                                <table class="table">
+                                                    <thead>
+                                                        <tr>
+                                                            <th scope="col">Date</th>
+                                                            <th scope="col">Time</th>
+                                                            <th scope="col">Loan ID</th>
+                                                            <th scope="col">Lender Name</th>
+                                                            <th scope="col">Comment</th>
+                                                        </tr>
+                                                    </thead>
+                                                    <tbody>
+                                                        <tr>
+                                                            <td scope="col">12.01.2020</td>
+                                                            <td scope="col">15:13</td>
+                                                            <td scope="col">0001</td>
+                                                            <td scope="col">Example</td>
+                                                            <td scope="col">
+                                                                <div class="form-floating">
+                                                                    <textarea class="form-control"
+                                                                        placeholder="Leave a comment here"
+                                                                        id="floatingTextarea"></textarea>
+                                                                    <label for="floatingTextarea">Comments</label>
+                                                                </div>
+                                                            </td>
+                                                        </tr>
+                                                    </tbody>
+                                                </table>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>

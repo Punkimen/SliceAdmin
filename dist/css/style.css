@@ -288,4 +288,8 @@ body.signin {
   .title {
     font-size: 26px;
   }
+
+  button.accordion-button {
+    font-size: 12px !important;
+  }
 }
