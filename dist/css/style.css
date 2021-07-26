@@ -266,6 +266,10 @@ body.signin {
   fill: #b8b8b8;
 }
 
+.support__wrapper .accordion-body a {
+  font-size: 16px;
+}
+
 .footer__subtitle {
   font-size: 18px;
   font-weight: bold;

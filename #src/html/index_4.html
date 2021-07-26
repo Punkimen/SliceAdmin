@@ -263,19 +263,26 @@
                                         </div>
                                     </div>
                                 </div>
-                                <form class="support-form" action="">
+                                <form class="needs-validation" novalidate>
                                     <div class="mb-3">
                                         <label for="exampleFormControlInput1" class="form-label">Тема</label>
-                                        <input type="text" class="form-control" placeholder="Работа с кабинетом"
-                                            id="exampleFormControlInput1">
+                                        <select class="form-select" aria-label="Default select example" required>
+                                            <option selected>Open this select menu</option>
+                                            <option value="1">One</option>
+                                            <option value="2">Two</option>
+                                            <option value="3">Three</option>
+                                        </select>
                                     </div>
                                     <div class="mb-3">
                                         <label for="exampleFormControlTextarea1" class="form-label">Повидомления</label>
-                                        <textarea class="form-control" placeholder="Як створити розсилку?"
-                                            id="exampleFormControlTextarea1" rows="3"></textarea>
+                                        <textarea class="form-control was-validated" placeholder="Як створити розсилку?"
+                                            id="exampleFormControlTextarea1" rows="3" required></textarea>
                                     </div>
-                                    <button type="button" class="btn btn-success">Submit</button>
+                                    <button type="submit" class="btn btn-success">Submit</button>
                                 </form>
+                                <!-- <form class="support-form needs-validation" action="">
+                                  
+                                </form> -->
                             </div>
                         </div>
                     </div>
