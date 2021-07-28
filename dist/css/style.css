@@ -171,6 +171,18 @@ body.signin {
   border-top-right-radius: 0;
 }
 
+.warning-info {
+  width: 17px;
+  height: 17px;
+  fill: #49a30c;
+}
+
+.upload-date {
+  width: 17px;
+  height: 17px;
+  fill: #fff;
+}
+
 .content-block {
   background: #fff;
   border: 1px solid #eaeaea;
