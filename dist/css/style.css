@@ -282,6 +282,26 @@ body.signin {
   font-size: 16px;
 }
 
+.modal {
+  background: rgba(0, 0, 0, 0.2);
+}
+
+.modal-body {
+  padding: 15px;
+}
+
+.modal-icon {
+  display: block;
+  max-width: 350px;
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+}
+
+.modal.show {
+  display: block;
+}
+
 .footer__subtitle {
   font-size: 18px;
   font-weight: bold;
